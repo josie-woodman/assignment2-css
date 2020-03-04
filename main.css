@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.4em;
+  text-align: center;
+  background-color: #BF3EFF;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Background header image*/
+.wrapper > h1 > h2 > h3 > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Font & Text Settings*/
+h1,
+h2,
+h3 {
+ font-family: 'Rock Salt', cursive;
+ color: #eaeaea;
+ padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+header {
+  height: 500px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/*Changing image settings to make the images fit within the screen margins*/
+.images {
+  display:flex;
+}
+
+.images div {
+  width: 50%;
+}
+
+.hands {
+  width: 25%;
+  height: 25%;
+}
+main {
+  padding-top: 60px 0;
+}
+
+/*Adjusting table elements*/
+table {
+  text-align: center;
+}
+table h3 {
+  text-align: center;
+}
+
+/*Adjusting footer elements*/
+
+footer p {
+  color: #333;
+  padding: 30px;
+}
+
+/*Adjusting form settings*/
+.form {
+  text-align: left;
+  padding-top: 20px;
+}
+.form h3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #d893fa;
+}
+.radio {
+  padding-top: 20px;
+}
+
+/* I couldn't figure out how to make the header image be behind the text... I tried troubleshooting
+and it didn't work. But I put it in there. I also had trouble resizing the images to make them
+fit in the browser properly so that there isn't an overscroll. Other than that, I did the form
+and everything else. */
